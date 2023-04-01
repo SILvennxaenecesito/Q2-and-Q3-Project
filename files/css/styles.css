@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins&display=swap');
+
+@keyframes transitionIn {														/*Simple Animation Transition*/
+	from{
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	to{
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+#trans{
+	animation: transitionIn 0.75s;
+}
+
+span{
+	color: #3E2636;
+}
+body{
+	margin: 0;
+	overflow-x: hidden}
+section{																						/*Default Style of each Section*/
+	box-sizing:  border-box;
+	width: 100%;
+	float:  left;
+	height:  100vh;
+	position: relative;}
+nav{																			/*navbar style*/
+		width: 100%;
+		display:  flex;
+		justify-content:center;
+		padding: 10x 10px;
+		align-items: center;
+		position: fixed;
+		z-index: 999;
+		background-color: rgb(62, 38, 54, 0.5);}
+nav li{																				/*navbar contents style*/
+		list-style: none;
+		display: inline-block;
+		margin: 0px 55px;}
+nav li a{
+		color: white;
+		text-decoration: none;
+		font-family: 'Poppins',sans-serif;
+		font-size: 17px;}
+#logo2{																				/*PSHS.CWA logo icon*/
+		justify-content:center;
+		align-items: center;
+		position: fixed;
+		z-index: 998;
+		height: 69px;
+		width: 70px;
+		left: 47.6%;
+		object-fit: cover;
+}
+#logo {																				/*PSHS.CWA title icon*/
+	margin-right: 66px;
+	height: 30px;
+	border: 0;}
+#subh{																				/*Subtitle for the subheading in Page 1 and Page 2*/
+	position: absolute;
+	top: 65%;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 700px;
+}
+#homep{																				/*Codes for Main page (Holding a Phone Picture)*/
+	background-color: #E0B9A2;
+}
+#homep img{
+	position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;}
+ #homep h1{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	transform:  translate(-0%,-50%);
+	font-size: 100px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 700px}
+#homepa{																			/*Codes for Our Goal (Paper Plane Picture)*/
+	background-color: #E0B9A2;}
+#homepa img{
+	position: absolute;
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;}
+ #homepa h1{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	transform:  translate(-0%,-50%);
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 600px}
+#homepa p{
+	position: absolute;
+	top: 29%;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 400px;
+}
+#homepb{																				/*Codes for Our Plan (Writing with a Pen picture)*/
+	background-color: #E0B9A2;}
+#homepb img{
+	position: absolute;
+  width: 49.5vw;
+  height: 140vh;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;}
+ #homepb h1{
+	position: absolute;
+	top: 10%;
+	left: 55%;
+	transform:  translate(-0%,-50%);
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 600px}
+#homepb p{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 500px;
+}
+
+ #advocA{																				/*Codes for Advocacy Main Page (Laptop picture)*/
+	background-color: #CE898C;}
+#advocA img{
+	position: absolute;
+  width: 49.5vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;}
+ #advocA h1{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	transform:  translate(-0%,-50%);
+	font-size: 100px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 700px}
+
+#advocB{																				/*Codes for Our History (Books and coffee picture)*/
+	background-color: #E0B9A2;}
+#advocB img{
+  position: absolute;
+  width: 49.5vw;
+  height: 200vh;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;}
+#advocB h1{
+	position: absolute;
+	top: 7%;
+	left: 55%;
+	transform:  translate(-0%,-50%);
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 600px}
+#advocB p{
+	position: absolute;
+	top: 15%;
+	left: 55%;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 500px;
+}
+#advocC{																				/*Codes for our Members*/
+	background-color: #CE898C;
+}
+#advocC h1{
+	position: absolute;
+	top: 7%;
+	left: 60%;
+	transform:  translate(-50%,0%);
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 600px}
+#advocC p{
+	position: absolute;
+	top: 22vh;
+	left: 17vw;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: center;
+	line-height: 1.25;
+	width: 1000px;}
+#advocD{																			/*Codes for Pisay Hugot and Events*/
+	background-color: #E0B9A2;}
+#advocD h1{
+	position: absolute;
+	top: 7%;
+	left: 10%;
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 600px}
+#advocD h2{
+	position: absolute;
+	top: 7%;
+	left: 50%;
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 600px}
+#pishugot img{																		/*FB ICON (advocacy)*/
+	position: absolute;
+	top: 25vh;
+	left: 10vw;
+	height: 369px;
+  width: 370px;
+  background: url('../images/icons.png') -1113px -371px/1640px;}
+
+ #advocDpar{																		/*Codes for events*/
+ 	background-color: #3E2636;
+ 	border-radius: 25px;
+ 	padding: 10px;
+	position: absolute;
+	top: 22vh;
+	left: 50vw;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: center;
+	line-height: 1.25;
+	width: 700px;}
+#pishugotp{																			/*Codes for Paragraph about Pisay Hugot*/ 
+	position: absolute;
+	top: 72vh;
+	left: 10vw;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 540px;}
+#ct{																				/*Codes for Main Page of Contact Us (Pressing phone picture)*/
+	background-color: #CE898C;
+}
+#ct img{
+	position: absolute;
+  width: 49.5vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;}
+ #ct h1{
+	position: absolute;
+	top: 20%;
+	left: 52%;
+	font-size: 100px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 500px}
+#ct p{
+	position: absolute;
+	top: 54%;
+	left: 52%;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 700px;}
+
+#cta{																				/*Codes for Message Us*/
+	background-color: #EAC8AA;}
+#cta h1{
+	position: absolute;
+	top: 7%;
+	left: 60%;
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 500px}
+#cta p{
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 700px;}
+
+#twitter img{																	/*Twitter Icon*/
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') 0 0/1640px;}
+#tiktok img{																	/*Tiktok Icon*/
+	position: absolute;
+	top: 62vh;
+	left: 5vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') 0 -371px/1640px;}
+#instagram img{																	/*Instagram Icon*/
+	position: absolute;
+	top: 10vh;
+	left: 30.5vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') -370px 0/1640px;}
+#facebook img{																	/*Facebook Icon*/
+	position: absolute;
+	top: 62vh;
+	left: 30vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') -371px -371px/1640px;}
+
+#twitter:hover img{																/*When hovering on Twitter Icon, changes color*/
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') -742px 0px/1640px;}
+#tiktok:hover img {																/*When hovering on Tiktok Icon, changes color*/
+	position: absolute;
+	top: 62vh;
+	left: 5vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') -742px -371px/1640px;}
+#instagram:hover img {															/*When hovering on Instagram Icon, changes color*/
+	position: absolute;
+	top: 10vh;
+	left: 30.5vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') -1112px 0/1640px;}
+#facebook:hover img {															/*When hovering on Facebook Icon, changes color*/
+	position: absolute;
+	top: 62vh;
+	left: 30vw;
+	height: 370px;
+  width: 370px;
+  background: url('../images/icons.png') -1113px -371px/1640px;}
+#sources{																		/*Codes for Sources*/
+	background-color: #EAC8AA}
+ #sources h1{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	transform:  translate(-0%,-50%);
+	font-size: 60px;
+	color: #3E2636;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	text-align: left;
+	line-height: 1;
+	width: 600px}
+#sources li{
+	position: relative;
+	top: 14vh;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	justify-content:  center;
+	text-align: left;
+	line-height: 1.25;
+	width: 1300px;}
